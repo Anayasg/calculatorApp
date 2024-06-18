@@ -1,4 +1,5 @@
 import math
+import numpy as np
 
 
 # Define functions for the basic arithmetic operations
@@ -27,7 +28,8 @@ def percentage(x, y):
 
 # Define functions for advanced operations
 def exponent(x, y):
-    return x ** y
+    pow = np.power(x,y)
+    return pow
 
 
 def sqrt(x):
